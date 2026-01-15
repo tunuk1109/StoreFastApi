@@ -3,7 +3,7 @@ from store_app.db.database import SessionLocal
 from store_app.api import category, product, auth, cart, review, favorite, social_auth
 import uvicorn
 from starlette.middleware.sessions import SessionMiddleware
-from config import SECRET_KEY
+from store_app.config import SECRET_KEY
 from store_app.admin.setup import setup_admin
 
 
